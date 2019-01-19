@@ -13,6 +13,10 @@
 		FBC9DC8B21F30A35007E25E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBC9DC8A21F30A35007E25E1 /* Assets.xcassets */; };
 		FBC9DC8E21F30A35007E25E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBC9DC8C21F30A35007E25E1 /* LaunchScreen.storyboard */; };
 		FBC9DC9121F30A35007E25E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC9DC9021F30A35007E25E1 /* main.m */; };
+		FBC9DC9D21F31423007E25E1 /* UIControl+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC9DC9C21F31423007E25E1 /* UIControl+Extension.m */; };
+		FBC9DCA021F31758007E25E1 /* NSMutableArray+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC9DC9F21F31758007E25E1 /* NSMutableArray+Extension.m */; };
+		FBC9DCA321F319AF007E25E1 /* NSDictionary+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC9DCA221F319AF007E25E1 /* NSDictionary+Extension.m */; };
+		FBC9DCA621F31C28007E25E1 /* NSMutableDictionary+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC9DCA521F31C28007E25E1 /* NSMutableDictionary+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,14 @@
 		FBC9DC8D21F30A35007E25E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBC9DC8F21F30A35007E25E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FBC9DC9021F30A35007E25E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FBC9DC9B21F31423007E25E1 /* UIControl+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIControl+Extension.h"; sourceTree = "<group>"; };
+		FBC9DC9C21F31423007E25E1 /* UIControl+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIControl+Extension.m"; sourceTree = "<group>"; };
+		FBC9DC9E21F31758007E25E1 /* NSMutableArray+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Extension.h"; sourceTree = "<group>"; };
+		FBC9DC9F21F31758007E25E1 /* NSMutableArray+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Extension.m"; sourceTree = "<group>"; };
+		FBC9DCA121F319AF007E25E1 /* NSDictionary+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Extension.h"; sourceTree = "<group>"; };
+		FBC9DCA221F319AF007E25E1 /* NSDictionary+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Extension.m"; sourceTree = "<group>"; };
+		FBC9DCA421F31C28007E25E1 /* NSMutableDictionary+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+Extension.h"; sourceTree = "<group>"; };
+		FBC9DCA521F31C28007E25E1 /* NSMutableDictionary+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 		FBC9DC8021F30A33007E25E1 /* HSimpleTools */ = {
 			isa = PBXGroup;
 			children = (
+				FBC9DC9721F30B1C007E25E1 /* Extension */,
 				FBC9DC8121F30A33007E25E1 /* AppDelegate.h */,
 				FBC9DC8221F30A33007E25E1 /* AppDelegate.m */,
 				FBC9DC8421F30A33007E25E1 /* ViewController.h */,
@@ -69,6 +82,21 @@
 				FBC9DC9021F30A35007E25E1 /* main.m */,
 			);
 			path = HSimpleTools;
+			sourceTree = "<group>";
+		};
+		FBC9DC9721F30B1C007E25E1 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FBC9DC9B21F31423007E25E1 /* UIControl+Extension.h */,
+				FBC9DC9C21F31423007E25E1 /* UIControl+Extension.m */,
+				FBC9DC9E21F31758007E25E1 /* NSMutableArray+Extension.h */,
+				FBC9DC9F21F31758007E25E1 /* NSMutableArray+Extension.m */,
+				FBC9DCA121F319AF007E25E1 /* NSDictionary+Extension.h */,
+				FBC9DCA221F319AF007E25E1 /* NSDictionary+Extension.m */,
+				FBC9DCA421F31C28007E25E1 /* NSMutableDictionary+Extension.h */,
+				FBC9DCA521F31C28007E25E1 /* NSMutableDictionary+Extension.m */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,7 +171,11 @@
 			files = (
 				FBC9DC8621F30A33007E25E1 /* ViewController.m in Sources */,
 				FBC9DC9121F30A35007E25E1 /* main.m in Sources */,
+				FBC9DCA321F319AF007E25E1 /* NSDictionary+Extension.m in Sources */,
 				FBC9DC8321F30A33007E25E1 /* AppDelegate.m in Sources */,
+				FBC9DC9D21F31423007E25E1 /* UIControl+Extension.m in Sources */,
+				FBC9DCA621F31C28007E25E1 /* NSMutableDictionary+Extension.m in Sources */,
+				FBC9DCA021F31758007E25E1 /* NSMutableArray+Extension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

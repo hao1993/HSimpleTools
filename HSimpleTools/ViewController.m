@@ -16,8 +16,29 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+    NSString *object = nil;
+//    NSMutableArray *array = [NSMutableArray array];
+//    [array addObject:@"hi"];
+//    [array addObject:object];
+//    NSLog(@"%@", array);
+
+    NSMutableDictionary *dict = [NSMutableDictionary dictionary];
+    dict[@"name"] = @"jack";
+    dict[@"weight"] = object;
+    NSLog(@"%@", dict); 
 }
 
+- (IBAction)click1 {
+    NSLog(@"%s", __func__);
+}
+
+- (IBAction)click2 {
+    NSLog(@"%s", __func__);
+}
+
+- (IBAction)click3 {
+    NSLog(@"%s", __func__);
+}
 
 @end
