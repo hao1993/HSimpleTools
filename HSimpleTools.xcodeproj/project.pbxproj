@@ -17,6 +17,8 @@
 		FBC9DCA021F31758007E25E1 /* NSMutableArray+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC9DC9F21F31758007E25E1 /* NSMutableArray+Extension.m */; };
 		FBC9DCA321F319AF007E25E1 /* NSDictionary+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC9DCA221F319AF007E25E1 /* NSDictionary+Extension.m */; };
 		FBC9DCA621F31C28007E25E1 /* NSMutableDictionary+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC9DCA521F31C28007E25E1 /* NSMutableDictionary+Extension.m */; };
+		FBC9DDAC21F462D5007E25E1 /* HPermenantThread.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC9DDAB21F462D5007E25E1 /* HPermenantThread.m */; };
+		FBD1BEB621F4682E003D37A1 /* ThreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD1BEB521F4682E003D37A1 /* ThreadViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,10 @@
 		FBC9DCA221F319AF007E25E1 /* NSDictionary+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Extension.m"; sourceTree = "<group>"; };
 		FBC9DCA421F31C28007E25E1 /* NSMutableDictionary+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+Extension.h"; sourceTree = "<group>"; };
 		FBC9DCA521F31C28007E25E1 /* NSMutableDictionary+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+Extension.m"; sourceTree = "<group>"; };
+		FBC9DDAA21F462D5007E25E1 /* HPermenantThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HPermenantThread.h; sourceTree = "<group>"; };
+		FBC9DDAB21F462D5007E25E1 /* HPermenantThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPermenantThread.m; sourceTree = "<group>"; };
+		FBD1BEB421F4682E003D37A1 /* ThreadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreadViewController.h; sourceTree = "<group>"; };
+		FBD1BEB521F4682E003D37A1 /* ThreadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreadViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,8 +77,12 @@
 			isa = PBXGroup;
 			children = (
 				FBC9DC9721F30B1C007E25E1 /* Extension */,
+				FBC9DDAA21F462D5007E25E1 /* HPermenantThread.h */,
+				FBC9DDAB21F462D5007E25E1 /* HPermenantThread.m */,
 				FBC9DC8121F30A33007E25E1 /* AppDelegate.h */,
 				FBC9DC8221F30A33007E25E1 /* AppDelegate.m */,
+				FBD1BEB421F4682E003D37A1 /* ThreadViewController.h */,
+				FBD1BEB521F4682E003D37A1 /* ThreadViewController.m */,
 				FBC9DC8421F30A33007E25E1 /* ViewController.h */,
 				FBC9DC8521F30A33007E25E1 /* ViewController.m */,
 				FBC9DC8721F30A33007E25E1 /* Main.storyboard */,
@@ -169,6 +179,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBD1BEB621F4682E003D37A1 /* ThreadViewController.m in Sources */,
 				FBC9DC8621F30A33007E25E1 /* ViewController.m in Sources */,
 				FBC9DC9121F30A35007E25E1 /* main.m in Sources */,
 				FBC9DCA321F319AF007E25E1 /* NSDictionary+Extension.m in Sources */,
@@ -176,6 +187,7 @@
 				FBC9DC9D21F31423007E25E1 /* UIControl+Extension.m in Sources */,
 				FBC9DCA621F31C28007E25E1 /* NSMutableDictionary+Extension.m in Sources */,
 				FBC9DCA021F31758007E25E1 /* NSMutableArray+Extension.m in Sources */,
+				FBC9DDAC21F462D5007E25E1 /* HPermenantThread.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -6,4 +6,5 @@
 1. 按钮点击事件的拦截；
 2. NSMutableArray 添加nil时造成的crash；
 3. NSMutableDictionary key为nil时造成的crash；
+4. 子线程保活；
 

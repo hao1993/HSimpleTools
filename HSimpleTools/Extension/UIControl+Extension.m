@@ -19,7 +19,7 @@
 
 - (void)h_sendAction:(SEL)action to:(id)target forEvent:(UIEvent *)event {
     if ([self isKindOfClass:[UIButton class]]) { // 拦截了所有按钮的实现
-        NSLog(@"%@-%@-%@", self, target, event);
+//        NSLog(@"%@-%@-%@", self, target, event);
     }
 
     // 调用系统原来的实现
