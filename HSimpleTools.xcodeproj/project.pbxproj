@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21C43DE621F571430045AB75 /* NSArray+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 21C43DE521F571430045AB75 /* NSArray+Extension.m */; };
 		FBC9DC8321F30A33007E25E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC9DC8221F30A33007E25E1 /* AppDelegate.m */; };
 		FBC9DC8621F30A33007E25E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC9DC8521F30A33007E25E1 /* ViewController.m */; };
 		FBC9DC8921F30A33007E25E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBC9DC8721F30A33007E25E1 /* Main.storyboard */; };
@@ -22,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		21C43DE421F571430045AB75 /* NSArray+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+Extension.h"; sourceTree = "<group>"; };
+		21C43DE521F571430045AB75 /* NSArray+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Extension.m"; sourceTree = "<group>"; };
 		FBC9DC7E21F30A33007E25E1 /* HSimpleTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HSimpleTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBC9DC8121F30A33007E25E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FBC9DC8221F30A33007E25E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -101,6 +104,8 @@
 				FBC9DC9C21F31423007E25E1 /* UIControl+Extension.m */,
 				FBC9DC9E21F31758007E25E1 /* NSMutableArray+Extension.h */,
 				FBC9DC9F21F31758007E25E1 /* NSMutableArray+Extension.m */,
+				21C43DE421F571430045AB75 /* NSArray+Extension.h */,
+				21C43DE521F571430045AB75 /* NSArray+Extension.m */,
 				FBC9DCA121F319AF007E25E1 /* NSDictionary+Extension.h */,
 				FBC9DCA221F319AF007E25E1 /* NSDictionary+Extension.m */,
 				FBC9DCA421F31C28007E25E1 /* NSMutableDictionary+Extension.h */,
@@ -185,6 +190,7 @@
 				FBC9DCA321F319AF007E25E1 /* NSDictionary+Extension.m in Sources */,
 				FBC9DC8321F30A33007E25E1 /* AppDelegate.m in Sources */,
 				FBC9DC9D21F31423007E25E1 /* UIControl+Extension.m in Sources */,
+				21C43DE621F571430045AB75 /* NSArray+Extension.m in Sources */,
 				FBC9DCA621F31C28007E25E1 /* NSMutableDictionary+Extension.m in Sources */,
 				FBC9DCA021F31758007E25E1 /* NSMutableArray+Extension.m in Sources */,
 				FBC9DDAC21F462D5007E25E1 /* HPermenantThread.m in Sources */,

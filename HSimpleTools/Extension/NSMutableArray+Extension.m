@@ -19,6 +19,11 @@
         Method method1 = class_getInstanceMethod(cls, @selector(insertObject:atIndex:));
         Method method2 = class_getInstanceMethod(cls, @selector(h_insertObject:atIndex:));
         method_exchangeImplementations(method1, method2);
+        
+        Method method3 = class_getInstanceMethod(cls, @selector(objectAtIndexedSubscript:));
+        Method method4 = class_getInstanceMethod(cls, @selector(h_objectAtIndexedSubscript:));
+        method_exchangeImplementations(method3, method4);
+        
     });
 }
 
@@ -26,6 +31,12 @@
     if (anObject == nil) return;
 
     [self h_insertObject:anObject atIndex:index];
+}
+
+- (id)h_objectAtIndexedSubscript:(NSUInteger)idx {
+    if (idx > self.count) return @"";
+    
+    return [self h_objectAtIndexedSubscript:idx];
 }
 
 @end
